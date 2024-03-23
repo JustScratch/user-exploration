@@ -2,7 +2,7 @@
 This repo was created to store files of server launchers and etc for a scratch project [User Exploration](https://scratch.mit.edu/projects/979239052).
 
 # Installation of Server Launcher
-1. Press [releases](https://github.com/JustablockCode/user-exploration/releases)
+1. Press [releases](https://github.com/JustScratch/user-exploration/releases)
 2. Find the latest release
 3. Download "Server Launcher.exe"
 4. Run "Server Launcher.exe"
