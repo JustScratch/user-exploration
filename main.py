@@ -11,7 +11,7 @@ from io import BytesIO
 session = scratch3.login("just_devs", os.getenv("JD_PASS"))
 conn = session.connect_cloud("982808852") 
 
-servv = "2.0"
+servv = "2.5"
 
 client = scratch3.CloudRequests(conn)
 
@@ -77,4 +77,4 @@ def getpfp(argument1, argument2):
 def on_ready():
     print("Request handler is running")
 
-client.run()
+client.run(no_packet_loss=True)
